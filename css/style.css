@@ -1,0 +1,169 @@
+.attribution { font-size: 13px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.box{
+    min-width: 320px;
+    height: 400px;
+    padding: 40px 60px;
+}
+.box-1 {
+    width: 350px;
+    background-image: linear-gradient(hsl(241, 72%, 41%), hsl(249, 81%, 8%));
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+}
+.box-2 {
+  background-color: hsl(295, 100%, 91%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;   
+}
+
+
+body{
+  background-color: hsl(295, 100%, 91%);
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2em;
+}
+.wrapper {
+  margin: 50px auto;
+  padding: 0;
+  border: 2px solid red;
+}
+
+.text-container{
+  margin: auto;
+  width: 26%;
+  min-width: 300px;
+  padding: 40px;
+}
+.blue-container{
+  background-image: linear-gradient(hsl(241, 72%, 41%), hsl(249, 81%, 8%));
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.percentage{
+  background-image: linear-gradient(hsl(252, 88%, 7%), hsl(241, 85%, 23%));
+  border-radius: 50%;
+  height: 125px;
+  padding: 25px;
+  margin: 30px auto;
+  width: 125px;
+}
+h1{
+  font-size: 1.063rem;
+  color: hsl(241, 100%, 89%);
+}
+.percentage h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.percentage p {
+  font-size: 0.938rem;
+  color: hsl(241, 100%, 89%);
+  margin-top: 0;
+}
+.score-sub-heading {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.score-text{
+  font-size: 0.938rem;
+  color: hsl(241, 100%, 89%); 
+  margin-bottom: 0;
+}
+
+/* Summary Container Section */
+.summary-heading {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.inside-divs-container {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  padding: 12px 20px;
+}
+.reaction-container{
+  background-color:  hsl(292, 100%, 95%);
+}
+.inside-divs-container p {
+  font-size: 0.938rem;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.reaction-text {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory-container {
+  background-color: hsl(39, 82%, 85%);
+}
+.memory-text {
+  color: hsl(39, 100%, 56%);
+}
+.icon {
+  font-size: 12px;
+  padding-right: 6px;
+}
+
+.verbal-container {
+  background-color: hsl(167, 54%, 88%);
+}
+.verbal-text {
+  color: hsl(166, 100%, 37%);
+}
+
+.visiual-container {
+  background-color: hsl(236, 100%, 94%);
+}
+.visual-text {
+  color: hsl(234, 85%, 45%);
+}
+.num-text {
+  color: hsl(241, 100%, 89%);
+}
+.marks-num-text {
+  font-weight: 800;
+  padding-right: 8px;
+}
+
+#btn-container {
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 22px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-size: 0.938rem;
+  padding: 12px 20px;
+  position: relative;
+  top: 18px;
+  text-align: center;
+}
+#btn-container:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+
+@media screen and (max-width: 767px) {
+    .box-1 {
+        position: relative;
+        top: 30px;
+        }
+  .box-2{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+      .box-1 {
+        position: relative;
+        right: -20px;;
+        }
+}
